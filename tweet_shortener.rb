@@ -1,6 +1,6 @@
 # Write your code here.
 
-$words_list = ['hello', 'to', 'two', 'too', 'for', 'four', 'be', 'you', 'at', 'and']
+$words_list = ['hello', 'to', 'two', 'too', 'for', 'four', 'be', 'you', 'at', 'and', 'Hello', 'To', 'Two', 'Too', 'For', 'Four', 'Be', 'You', 'At', 'And']
 
 def dictionary(word)
   words = [
@@ -13,7 +13,17 @@ def dictionary(word)
     {"be" => 'b'},
     {"you" => 'u'},
     {"at" => '@'},
-    {"and" => '&'}
+    {"and" => '&'},
+    {"Hello" => 'hi'},
+    {"To" => 2},
+    {"Two" => 2},
+    {"Too" => 2},
+    {"For" => 4},
+    {"Four" => 4},
+    {"Be" => 'b'},
+    {"You" => 'u'},
+    {"At" => '@'},
+    {"And" => '&'}
   ] 
   
   if $words_list.include?(word)
